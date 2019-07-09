@@ -2,76 +2,76 @@
 <testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7054" started-at="2019-07-08T23:38:35Z" finished-at="2019-07-08T23:38:42Z">
+  <suite name="Default suite" duration-ms="9287" started-at="2019-07-09T00:38:28Z" finished-at="2019-07-09T00:38:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7054" started-at="2019-07-08T23:38:35Z" finished-at="2019-07-08T23:38:42Z">
+    <test name="Default test" duration-ms="9287" started-at="2019-07-09T00:38:28Z" finished-at="2019-07-09T00:38:37Z">
       <class name="INTIVE_FDV.Automation.Exercise">
-        <test-method status="PASS" signature="Before()[pri:0, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Before" is-config="true" duration-ms="1943" started-at="2019-07-08T20:38:35Z" finished-at="2019-07-08T20:38:37Z">
+        <test-method status="PASS" signature="Before()[pri:0, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Before" is-config="true" duration-ms="2661" started-at="2019-07-08T21:38:28Z" finished-at="2019-07-08T21:38:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Before -->
-        <test-method status="PASS" signature="Step1()[pri:1, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step1" duration-ms="89" started-at="2019-07-08T20:38:37Z" finished-at="2019-07-08T20:38:37Z">
+        <test-method status="PASS" signature="Step1()[pri:1, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step1" duration-ms="85" started-at="2019-07-08T21:38:30Z" finished-at="2019-07-08T21:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step1 -->
-        <test-method status="PASS" signature="Step2()[pri:2, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step2" duration-ms="58" started-at="2019-07-08T20:38:37Z" finished-at="2019-07-08T20:38:37Z">
+        <test-method status="PASS" signature="Step2()[pri:2, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step2" duration-ms="63" started-at="2019-07-08T21:38:31Z" finished-at="2019-07-08T21:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step2 -->
-        <test-method status="PASS" signature="Step3()[pri:3, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step3" duration-ms="54" started-at="2019-07-08T20:38:37Z" finished-at="2019-07-08T20:38:37Z">
+        <test-method status="PASS" signature="Step3()[pri:3, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step3" duration-ms="57" started-at="2019-07-08T21:38:31Z" finished-at="2019-07-08T21:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step3 -->
-        <test-method status="PASS" signature="Step4()[pri:4, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step4" duration-ms="25" started-at="2019-07-08T20:38:37Z" finished-at="2019-07-08T20:38:37Z">
+        <test-method status="PASS" signature="Step4()[pri:4, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step4" duration-ms="27" started-at="2019-07-08T21:38:31Z" finished-at="2019-07-08T21:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step4 -->
-        <test-method status="PASS" signature="Step5()[pri:5, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step5" duration-ms="56" started-at="2019-07-08T20:38:37Z" finished-at="2019-07-08T20:38:37Z">
+        <test-method status="PASS" signature="Step5()[pri:5, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step5" duration-ms="59" started-at="2019-07-08T21:38:31Z" finished-at="2019-07-08T21:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step5 -->
-        <test-method status="PASS" signature="Step6()[pri:6, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step6" duration-ms="46" started-at="2019-07-08T20:38:37Z" finished-at="2019-07-08T20:38:37Z">
+        <test-method status="PASS" signature="Step6()[pri:6, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step6" duration-ms="41" started-at="2019-07-08T21:38:31Z" finished-at="2019-07-08T21:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step6 -->
-        <test-method status="PASS" signature="Step7()[pri:7, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step7" duration-ms="72" started-at="2019-07-08T20:38:37Z" finished-at="2019-07-08T20:38:37Z">
+        <test-method status="PASS" signature="Step7()[pri:7, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step7" duration-ms="70" started-at="2019-07-08T21:38:31Z" finished-at="2019-07-08T21:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step7 -->
-        <test-method status="PASS" signature="Step8()[pri:8, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step8" duration-ms="64" started-at="2019-07-08T20:38:37Z" finished-at="2019-07-08T20:38:37Z">
+        <test-method status="PASS" signature="Step8()[pri:8, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step8" duration-ms="69" started-at="2019-07-08T21:38:31Z" finished-at="2019-07-08T21:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step8 -->
-        <test-method status="PASS" signature="Step9()[pri:9, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step9" duration-ms="54" started-at="2019-07-08T20:38:37Z" finished-at="2019-07-08T20:38:37Z">
+        <test-method status="PASS" signature="Step9()[pri:9, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step9" duration-ms="47" started-at="2019-07-08T21:38:31Z" finished-at="2019-07-08T21:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step9 -->
-        <test-method status="PASS" signature="Step10()[pri:10, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step10" duration-ms="30" started-at="2019-07-08T20:38:37Z" finished-at="2019-07-08T20:38:37Z">
+        <test-method status="PASS" signature="Step10()[pri:10, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step10" duration-ms="28" started-at="2019-07-08T21:38:31Z" finished-at="2019-07-08T21:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step10 -->
-        <test-method status="PASS" signature="Step11()[pri:11, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step11" duration-ms="52" started-at="2019-07-08T20:38:37Z" finished-at="2019-07-08T20:38:37Z">
+        <test-method status="PASS" signature="Step11()[pri:11, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step11" duration-ms="45" started-at="2019-07-08T21:38:31Z" finished-at="2019-07-08T21:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step11 -->
-        <test-method status="PASS" signature="Step12()[pri:12, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step12" duration-ms="3828" started-at="2019-07-08T20:38:37Z" finished-at="2019-07-08T20:38:41Z">
+        <test-method status="PASS" signature="Step12()[pri:12, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step12" duration-ms="5310" started-at="2019-07-08T21:38:31Z" finished-at="2019-07-08T21:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step12 -->
-        <test-method status="PASS" signature="Step13()[pri:13, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step13" duration-ms="8" started-at="2019-07-08T20:38:41Z" finished-at="2019-07-08T20:38:41Z">
+        <test-method status="PASS" signature="Step13()[pri:13, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step13" duration-ms="7" started-at="2019-07-08T21:38:36Z" finished-at="2019-07-08T21:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step13 -->
-        <test-method status="PASS" signature="Step14()[pri:14, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step14" duration-ms="54" started-at="2019-07-08T20:38:41Z" finished-at="2019-07-08T20:38:41Z">
+        <test-method status="PASS" signature="Step14()[pri:14, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Step14" duration-ms="56" started-at="2019-07-08T21:38:36Z" finished-at="2019-07-08T21:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step14 -->
-        <test-method status="PASS" signature="Verify()[pri:15, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Verify" duration-ms="551" started-at="2019-07-08T20:38:41Z" finished-at="2019-07-08T20:38:42Z">
+        <test-method status="PASS" signature="Verify()[pri:15, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="Verify" duration-ms="582" started-at="2019-07-08T21:38:36Z" finished-at="2019-07-08T21:38:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="tearDown" is-config="true" duration-ms="42" started-at="2019-07-08T20:38:42Z" finished-at="2019-07-08T20:38:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:INTIVE_FDV.Automation.Exercise@51e69659]" name="tearDown" is-config="true" duration-ms="55" started-at="2019-07-08T21:38:37Z" finished-at="2019-07-08T21:38:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
