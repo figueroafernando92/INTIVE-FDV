@@ -11,26 +11,18 @@ public class IntivePageObjects {
 
 	public WebDriver driver;
 	
-	public WebElement inputAnswer1;
-	public WebElement inputAnswer4;
-	public WebElement inputAnswer6;
-	public WebElement inputAnswer8;
-	public WebElement inputAnswer9;
-	public WebElement inputAnswer10;
-	public WebElement inputAnswer11;
-	public WebElement inputName;
-	public Select selectOcupations;
-	public WebElement linkWait;
-	public WebElement buttonSubmit;
-	public WebElement buttonCheckResults;
-	public List<WebElement> listBlackBox;
-	public WebElement textName, textOccupation, textLink, textPosition;
-	public WebElement elementRedBox, elementOrangeBox, elementGreenBox, elementPurpleBox;
-	public List<WebElement> listIAmHere;
+	private WebElement inputAnswer1, inputAnswer4, inputAnswer6, inputAnswer8, inputAnswer9;
+	private WebElement inputAnswer10, inputAnswer11, inputName;
+	private Select selectOcupations;
+	private WebElement linkWait;
+	private WebElement buttonSubmit, buttonCheckResults;
+	private List<WebElement> listBlackBox, listIAmHere;
+	private WebElement textName, textOccupation, textLink, textPosition;
+	private WebElement elementRedBox, elementOrangeBox, elementGreenBox, elementPurpleBox;
+
 	
 	public IntivePageObjects(WebDriver driver){
-		this.driver=driver;
-		
+		this.driver = driver;		
 		inputAnswer1 = driver.findElement(By.id("answer1"));
 		inputAnswer4 = driver.findElement(By.id("answer4"));
 		inputAnswer6 = driver.findElement(By.id("answer6"));
@@ -54,4 +46,114 @@ public class IntivePageObjects {
 		elementPurpleBox = driver.findElement(By.id("purplebox"));
 		listIAmHere = driver.findElements(By.id("IAmHere"));
 	}
+
+	public void WriteAnswer1(String pageTitle) {
+		inputAnswer1.sendKeys(pageTitle);		
+	}
+
+	public String GetTitle() {
+		 return driver.getTitle();
+	}
+
+	public String GetName() {		
+		return textName.getText();
+	}
+
+	public void WriteName(String name) {
+		inputName.sendKeys(name);
+	}
+
+	public String GetOccupation() {
+		return textOccupation.getText();
+	}
+
+	public void SelectOcupation(String occupation) {
+		selectOcupations.selectByVisibleText(occupation);
+	}
+
+	public List<WebElement>  GetBlackBoxes() {
+		return listBlackBox;
+	}
+
+	public void WriteAnswer4(String count) {
+		inputAnswer4.sendKeys(count);
+	}
+
+	public String GetTextLink() {
+		return textLink.getText();
+	}
+
+	public WebElement FindLink(String link) {
+		return driver.findElement(By.linkText(link));
+	}
+
+	public WebElement GetRedBox() {
+		return elementRedBox;
+	}
+
+	public void WriteAnswer6(String classRedBox) {
+		inputAnswer6.sendKeys(classRedBox);
+	}
+
+	public String GetTextPosition() {
+		return textPosition.getText();
+	}
+
+	public WebElement FindRadioButton(String position) {
+		return driver.findElement(By.xpath("//input[@value='"+position+"']"));
+	}
+
+	public String GetTextRedBox() {
+		return elementRedBox.getText();
+	}
+
+	public void WriteAnswer8(String text) {
+		inputAnswer8.sendKeys(text);		
+	}
+
+	public WebElement GetOrangeBox() {
+		return elementOrangeBox;
+	}
+
+	public WebElement GetGreenBox() {
+		return elementGreenBox;
+	}
+
+	public void WriteAnswer9(String color) {
+		inputAnswer9.sendKeys(color);		
+	}
+
+	public int GetCountIAmHere() {
+		return listIAmHere.size();
+	}
+
+	public void WriteAnswer10(String string) {
+		inputAnswer10.sendKeys(string);	
+	}
+
+	public void WriteAnswer11(String string) {
+		inputAnswer11.sendKeys(string);			
+	}
+
+	public WebElement GetPurpleBox() {
+		return elementPurpleBox;
+	}
+
+	public void ClickOnLinkWait() {
+		linkWait.click();		
+	}
+
+	public void ConfirmAlert() {
+		driver.switchTo().alert().accept();		
+	}
+
+	public void ClickOnButtonSubmit() {
+		buttonSubmit.click();	
+	}
+
+	public void ClickOnButtonCheckResults() {
+		buttonCheckResults.click();		
+	}
+	
+	
 }
